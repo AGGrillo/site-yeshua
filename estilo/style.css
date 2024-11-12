@@ -27,7 +27,7 @@ body {
 
 h1 {
     font-family: 'Chunk Five Regular';
-    font-size: 40px;
+    font-size: 36px;
     background-image: linear-gradient(to right, var(--cor3), var(--cor7), rgb(243, 39, 39));
     color: var(--cor8);
     text-align: center;
