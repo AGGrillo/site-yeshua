@@ -59,7 +59,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     line-height: 37px;
-    margin: 0 13px;
+    margin: 0 10px;
     border: 2px solid black;
     border-radius: 15px;
     padding: 10px;
@@ -85,7 +85,7 @@ main {
     background-color: lightgray;
     color: black;
     position: relative;
-    margin: 10px 13px;
+    margin: 10px 10px;
     border: 2px solid black;
     border-radius: 15px;
     padding: 25px 10px 10px 10px;
