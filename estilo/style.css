@@ -27,7 +27,7 @@ body {
 
 h1 {
     font-family: 'Chunk Five Regular';
-    font-size: 38px;
+    font-size: 40px;
     background-image: linear-gradient(to right, var(--cor3), var(--cor7), rgb(243, 39, 39));
     color: var(--cor8);
     text-align: center;
@@ -37,9 +37,9 @@ h1 {
     padding: 20px;
 }
 
-.yeshua {
+.yeshua1 {
     color: var(--cor1);
-    text-shadow: 3px 3px 6px rgba(101, 101, 243, 0.6);
+    text-shadow: 3px 3px 6px rgba(134, 134, 238, 0.6);
     text-decoration: underline;
     margin-bottom: 10px;
     padding-bottom: 20px;
@@ -59,7 +59,7 @@ h2 {
     font-size: 20px;
     text-align: center;
     line-height: 37px;
-    margin: 0 4px;
+    margin: 0 13px;
     border: 2px solid black;
     border-radius: 15px;
     padding: 10px;
@@ -73,11 +73,19 @@ h2 {
     text-shadow: 3px 3px 6px rgba(0, 0, 255, 0.6);
 }
 
+.yeshua2 {
+    color: var(--cor1);
+    text-shadow: 3px 3px 6px rgba(59, 59, 243, 0.6);
+    text-decoration: underline;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
 main {
     background-color: lightgray;
     color: black;
     position: relative;
-    margin: 10px 12px;
+    margin: 10px 13px;
     border: 2px solid black;
     border-radius: 15px;
     padding: 25px 10px 10px 10px;
@@ -123,10 +131,19 @@ main {
     padding-bottom: 47px;
 }
 
+.yeshua3 {
+    color: var(--cor8);
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgba(250, 52, 52, 0.6);
+    text-decoration: underline;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+}
+
 p {
     font-size: large;
     margin-top: 15px;
-    margin-bottom: 7px;
+    margin-bottom: 8px;
     line-height: 27px;
 }
 
@@ -140,23 +157,15 @@ p {
     margin-bottom: 11px;
 }
 
-.hor-line {
-    margin-top: 30px;
-    margin-bottom: 20px;
-}
-
 .loc {
     color: var(--cor1);
     margin: 20px;
     margin-top: 12px;
 }
 
-.tam {
-    width: 200px;
-    height: 130px;
-}
-
 img {
+    width: 210px;
+    height: 136.5px;
     margin-bottom: -2px;
 }
 
@@ -165,10 +174,20 @@ hr {
     margin-bottom: 20px;
 }
 
+.hor-line {
+    margin-top: 32px;
+    margin-bottom: 20px;
+}
+
+.hor-line-2 {
+    margin-top: 12px;
+    margin-bottom: 28px;
+}
+
 .links {
     background-image: linear-gradient(to right, var(--cor1), var(--cor8));
     color: white;
-    margin: 0 0 21px 0;
+    margin: 3px 0 21px 0;
     font-weight: bold;
     text-decoration: underline;
 }
