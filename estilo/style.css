@@ -1,0 +1,255 @@
+@font-face {
+    font-family: 'Chunk Five Regular';
+    src: url('../fontes/chunkfive-regular.otf') format('opentype');
+}
+
+:root {
+    --cor1: #020558;
+    --cor2: rgba(17, 0, 255);
+    --cor3: #4b38f7;
+    --cor4: #7478d6;
+    --cor5: #7fc8ed;
+    --cor6: #B552F2;
+    --cor7: yellow;
+    --cor8: rgba(94, 1, 1);
+    --cor9: rgb(165, 1, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--cor5);
+}
+
+h1 {
+    font-family: 'Chunk Five Regular';
+    font-size: 40px;
+    background-image: linear-gradient(to right, var(--cor3), var(--cor7), rgb(243, 39, 39));
+    color: var(--cor8);
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    border: 2px solid black;
+    padding: 16px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    background-color: var(--cor4);
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+main {
+    background-color: lightgray;
+    color: black;
+    position: relative;
+    margin: 10px 10px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 25px 10px;
+    text-align: center;
+}
+
+.links {
+    background-image: linear-gradient(to right, var(--cor1), var(--cor8));
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    color: white;
+    margin: 5px 0 10px 0;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+a:hover {
+    background-color: var(--cor4);
+    color: var(--cor1);
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+a:active {
+    background-color: var(--cor4);
+    color: var(--cor8);
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+a:visited {
+    color: var(--cor8);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+}
+
+a::after {
+    content: '\00A0\1F517';
+}
+
+.ancora {
+    display: block;
+}
+
+.ancora2 {
+    display: block;
+}
+
+.hor-line {
+    margin: 8px 0 17px 0;
+}
+
+.linha {
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.explicacao1 {
+    background-image: url("https://cdn.pixabay.com/photo/2016/11/29/13/12/cloudy-1869753_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: yellow;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.explicacao2 {
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/29/09/53/abstract-1780277_640.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: yellow;
+    text-indent: 28px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.explicacao3 {
+    background-image: url("https://cdn.pixabay.com/photo/2020/01/08/18/50/clouds-4750959_640.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    color: black;
+    font-weight: bolder;
+    text-indent: 28px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.explicacao4 {
+    background-image: url("https://cdn.pixabay.com/photo/2024/01/16/19/01/ai-generated-8512895_640.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+    color: white;
+    font-weight: bolder;
+    text-indent: 28px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.div {
+    line-height: 25px;
+    padding: 60px 20px;
+} 
+
+.parentese {
+    font-weight: normal;
+}
+
+.destaque {
+    color: var(--cor1);
+    text-shadow: 3px 3px 6px rgba(26, 26, 240, 0.6);
+    text-decoration: underline;
+}
+
+.destaque2 {
+    color: rgb(2, 71, 2);
+    text-shadow: 3px 3px 6px rgba(3, 252, 3, 0.6);
+    text-decoration: underline;
+}
+
+.destaque3 {
+    color: var(--cor8);
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgba(250, 52, 52, 0.6);
+    text-decoration: underline;
+}
+
+.destaque4 {
+    color: var(--cor8);
+    font-weight: bold;
+    text-shadow: 3px 3px 6px rgba(250, 52, 52, 0.6);
+}
+
+.sublinhado {
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.sublinhado2 {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.sublinhado3 {
+    color: rgb(200, 255, 0);
+    text-decoration: underline;
+}
+
+p {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.loc {
+    color: var(--cor1);
+    margin: 12px 0 16px 0;
+}
+
+img {
+    width: 180px;
+    height: 110px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.8);
+}
+
+footer > p {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.rodape {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
+    line-height: 20px;
+}
+
+.cinza {
+    background-color: rgb(40, 40, 40);
+}
