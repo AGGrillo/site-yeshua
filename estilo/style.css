@@ -68,10 +68,11 @@ main {
     background-image: linear-gradient(to right, var(--cor1), var(--cor8));
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
     color: white;
-    margin: 5px 0 10px -30px;
+    margin: 5px 0 10px 0;
     font-weight: bold;
     text-align: center;
     text-decoration: underline;
+    text-indent: 0;
 }
 
 a {
@@ -174,7 +175,7 @@ a::after {
 
 .div {
     line-height: 25px;
-    padding: 60px 20px;
+    padding: 60px 10px;
 } 
 
 .parentese {
@@ -226,14 +227,14 @@ main > p {
     line-height: 22px;
     text-align: justify;
     text-indent: 25px;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 main > div > p {
     font-size: 17px;
     line-height: 22px;
     text-align: center;
-    padding: 0 10px;
+    padding: 0 5px;
 }
 
 .loc {
