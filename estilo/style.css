@@ -76,7 +76,7 @@ main {
 }
 
 a {
-    color: var(--cor1);
+    color: var(--cor2);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
@@ -84,7 +84,7 @@ a {
 
 a:hover {
     background-color: var(--cor4);
-    color: var(--cor1);
+    color: red;
     text-decoration: underline;
     font-weight: bold;
     padding: 10px 15px;
@@ -101,7 +101,7 @@ a:active {
 }
 
 a:visited {
-    color: var(--cor8);
+    color: rgb(228, 3, 228);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
