@@ -60,7 +60,7 @@ main {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
     border: 2px solid black;
     border-radius: 15px;
-    padding: 25px 20px;
+    padding: 25px 10px;
     text-align: center;
 }
 
@@ -134,7 +134,8 @@ a::after {
     background-attachment: fixed;
     background-position: center;
     color: yellow;
-    text-align: center;
+    text-align: justify;
+    text-indent: 28px;
     border-radius: 10px;
 }
 
@@ -175,7 +176,7 @@ a::after {
 
 .div {
     line-height: 25px;
-    padding: 60px 5px;
+    padding: 60px 8px;
 } 
 
 .parentese {
@@ -227,13 +228,13 @@ main > p {
     line-height: 22px;
     text-align: justify;
     text-indent: 25px;
-    padding: 0 5px;
+    padding: 0 8px;
 }
 
 main > div > p {
     font-size: 17px;
     line-height: 22px;
-    padding: 0 5px;
+    padding: 0 8px;
 }
 
 .loc {
