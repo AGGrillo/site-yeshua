@@ -135,7 +135,7 @@ a::after {
     background-position: center;
     color: yellow;
     text-align: justify;
-    text-indent: 28px;
+    text-indent: 20px;
     border-radius: 10px;
 }
 
@@ -145,7 +145,7 @@ a::after {
     background-attachment: fixed;
     background-position: center;
     color: yellow;
-    text-indent: 28px;
+    text-indent: 20px;
     border-radius: 10px;
     text-align: justify;
 }
@@ -157,7 +157,7 @@ a::after {
     background-position: bottom;
     color: black;
     font-weight: bolder;
-    text-indent: 28px;
+    text-indent: 20px;
     border-radius: 10px;
     text-align: justify;
 }
@@ -169,7 +169,7 @@ a::after {
     background-position: bottom;
     color: white;
     font-weight: bolder;
-    text-indent: 28px;
+    text-indent: 20px;
     border-radius: 10px;
     text-align: justify;
 }
@@ -227,7 +227,7 @@ main > p {
     font-size: 17px;
     line-height: 22px;
     text-align: justify;
-    text-indent: 25px;
+    text-indent: 20px;
     padding: 0 7px;
 }
 
