@@ -228,13 +228,13 @@ main > p {
     line-height: 22px;
     text-align: justify;
     text-indent: 25px;
-    padding: 0 8px;
+    padding: 0 7px;
 }
 
 main > div > p {
     font-size: 17px;
     line-height: 22px;
-    padding: 0 8px;
+    padding: 0 7px;
 }
 
 .loc {
