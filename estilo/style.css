@@ -76,10 +76,10 @@ main {
 }
 
 a {
-    color: var(--cor2);
+    color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 10px 0;
 }
 
 a:hover {
@@ -87,7 +87,7 @@ a:hover {
     color: red;
     text-decoration: underline;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 10px 0;
     border-radius: 8px;
 }
 
@@ -96,15 +96,15 @@ a:active {
     color: var(--cor8);
     text-decoration: underline;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 10px 0;
     border-radius: 8px;
 }
 
 a:visited {
-    color: var(--cor3);
+    color: purple;
     text-decoration: none;
     font-weight: bold;
-    padding: 10px 15px;
+    padding: 10px 0;
 }
 
 a::after {
@@ -112,10 +112,10 @@ a::after {
 }
 
 .anc {
-    color: var(--cor2);
+    color: var(--cor1);
     text-decoration: none;
     font-weight: bold;
-    padding: 3px 6px;
+    padding: 3px 8px;
 }
 
 .anc:hover {
@@ -123,7 +123,7 @@ a::after {
     color: red;
     text-decoration: underline;
     font-weight: bold;
-    padding: 3px 6px;
+    padding: 3px 8px;
     border-radius: 8px;
 }
 
@@ -132,15 +132,15 @@ a::after {
     color: var(--cor8);
     text-decoration: underline;
     font-weight: bold;
-    padding: 3px 6px;
+    padding: 3px 8px;
     border-radius: 8px;
 }
 
 .anc:visited {
-    color: var(--cor3);
+    color: purple;
     text-decoration: none;
     font-weight: bold;
-    padding: 3px 6px;
+    padding: 3px 8px;
 }
 
 .anc::after {
@@ -170,7 +170,7 @@ a::after {
     background-attachment: fixed;
     background-position: center;
     color: yellow;
-    text-align: justify;
+    text-align: center;
     text-indent: 20px;
     border-radius: 10px;
 }
@@ -298,8 +298,4 @@ footer > p {
 .rodape {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
     line-height: 20px;
-}
-
-.cinza {
-    background-color: rgb(40, 40, 40);
 }
