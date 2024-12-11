@@ -101,13 +101,49 @@ a:active {
 }
 
 a:visited {
-    color: rgb(228, 3, 228);
+    color: var(--cor3);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 15px;
 }
 
 a::after {
+    content: '\00A0\1F517';
+}
+
+.anc {
+    color: var(--cor2);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 6px;
+}
+
+.anc:hover {
+    background-color: var(--cor4);
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 8px;
+}
+
+.anc:active {
+    background-color: var(--cor4);
+    color: var(--cor8);
+    text-decoration: underline;
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 8px;
+}
+
+.anc:visited {
+    color: var(--cor3);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 3px 6px;
+}
+
+.anc::after {
     content: '\00A0\1F517';
 }
 
