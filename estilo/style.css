@@ -64,7 +64,7 @@ main {
     text-align: center;
 }
 
-.links {
+.menu {
     background-image: linear-gradient(to right, var(--cor1), var(--cor8));
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.8);
     color: white;
@@ -76,7 +76,7 @@ main {
 }
 
 a {
-    color: var(--cor1);
+    color: var(--cor2);
     text-decoration: none;
     font-weight: bold;
     padding: 10px 0;
@@ -112,7 +112,7 @@ a::after {
 }
 
 .anc {
-    color: var(--cor1);
+    color: var(--cor2);
     text-decoration: none;
     font-weight: bold;
     padding: 3px 8px;
@@ -137,7 +137,7 @@ a::after {
 }
 
 .anc:visited {
-    color: purple;
+    color: rgb(194, 3, 194);
     text-decoration: none;
     font-weight: bold;
     padding: 3px 8px;
