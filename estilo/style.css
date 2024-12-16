@@ -76,7 +76,7 @@ main {
 }
 
 a {
-    color: var(--cor1);
+    color: green;
     text-decoration: none;
     font-weight: bold;
     padding: 3px 8px;
@@ -112,7 +112,7 @@ a::after {
 }
 
 .anc {
-    color: var(--cor1);
+    color: green;
     text-decoration: none;
     font-weight: bold;
     padding: 3px 8px;
